@@ -1,0 +1,34 @@
+IDENTIFYING ALL JOB POSTINGS
+PAGE NUMBER: 42
+IT TOOK 36.015507 SECONDS
+
+
+VISITING EVERY JOB POSTING'S PAGE AND EXTRACTING DESCRIPTION
+[|||||||||||||||||||||||||||||||||||||||||||||||||| 840 / 840 ||||||||||||||||||||||||||||||||||||||||||||||||||]
+IT TOOK 294.494149 SECONDS
+
+
+TRANSLATING DESCRIPTIONS
+[|||||||||||||||||||||||||||||||||||||||||||||||||| 840 / 840 ||||||||||||||||||||||||||||||||||||||||||||||||||]
+TRANSLATED: 417 / 840
+IT TOOK 292.133420 SECONDS
+
+
+EXTRACTING SKILLS FROM DESCRIPTIONS
+[|||||||||||||||||||||||||||||||||||||||||||||||||| 840 / 840 ||||||||||||||||||||||||||||||||||||||||||||||||||]
+IT TOOK 149.131777 SECONDS
+
+
+CLEANING DATA
+IT TOOK 0.613385 SECONDS
+
+
+PREPARING DATA FOR DATABASE SAVING
+IT TOOK 0.156165 SECONDS
+
+
+SAVING TO DATABASE
+IT TOOK 2.112586 SECONDS
+
+
+DONE

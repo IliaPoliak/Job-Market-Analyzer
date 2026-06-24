@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.heading {
+  @apply mb-6 text-2xl font-semibold text-gray-800;
+}
+
+@layer tabs {
+  .tab-base {
+    @apply -mb-px rounded-t-lg border px-4 py-2 text-sm font-medium transition-colors cursor-pointer;
+  }
+
+  .highlighted-tab {
+    @apply border-gray-200 border-b-white bg-white text-gray-900;
+  }
+
+  .not-highlighted-tab {
+    @apply border-transparent bg-gray-200 text-gray-500 hover:bg-gray-300;
+  }
+}
+
+.button {
+  @apply rounded border border-gray-300 px-3 py-1 text-sm text-gray-600 hover:bg-gray-100 cursor-pointer;
+}
+
+.loading {
+  @apply text-gray-500;
+}
+
+.error {
+  @apply text-red-500;
+}
