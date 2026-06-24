@@ -2,6 +2,8 @@
 
 Data pipline for extracting information about open job positions such as: skills required, salary, company. The data is served via REST API's and the backend dashboards on the frontend. The project's goal is to help you understand the hiring trends to make informed career decisions.
 
+[Live Demo](https://job-market-analyzer-live-demo.vercel.app/)
+
 ![Screenshot](screenshot.png)
 
 ## Description
