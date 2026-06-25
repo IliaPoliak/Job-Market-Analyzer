@@ -1,6 +1,6 @@
 # Job Market Analyzer
 
-Data pipline for extracting information about open job positions such as: skills required, salary, company. The data is served via REST API's on the backend dashboards on the frontend. The project's goal is to help you understand the hiring trends to make informed career decisions.
+Data pipeline for extracting information about open job positions such as: skills required, salary, company. The data is served via REST API's on the backend dashboards on the frontend. The project's goal is to help you understand the hiring trends to make informed career decisions.
 
 [Live Demo](https://job-market-analyzer-live-demo.vercel.app/)
 
@@ -10,15 +10,15 @@ Data pipline for extracting information about open job positions such as: skills
 
 When you run the project the data will be available through the frontend dashboards as the repository holds the database snapshot. You can also investigate the data by connecting to the database and writing SQL querries. 
 
-On the backend, after starting application, the data pipline starts gathering information from the web to update the database. The updates are also sheduled every day at 2 AM.
+On the backend, after starting application, the data pipeline starts gathering information from the web to update the database. The updates are also sheduled every day at 2 AM.
 
-The data pipline consists of:
+The data pipeline consists of:
 1. web scraping the information about currently open job positions along with the description
 2. extracting skills from the description via phrase matching
 3. cleaning the data
 4. saving the data to the database
 
-> Warning: after starting application the data pipline starts to activly use the internet to update the information if you want to opt out comment the following line in `backend/app/main.py`:
+> Warning: after starting application the data pipeline starts to activly use the internet to update the information if you want to opt out comment the following line in `backend/app/main.py`:
 
 ```py
 threading.Thread(target=run_pipeline).start()
